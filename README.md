@@ -1,4 +1,2 @@
 # CodeAlpha_Project_HotelReservationSystem
-This is first Repo
-<br>
-my name is idrish
+This is a project using java!
