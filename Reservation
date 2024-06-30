@@ -1,0 +1,32 @@
+public class Reservation {
+    private String guestName;
+    private Room room;
+    private double paymentAmount;
+
+    public Reservation(String guestName, Room room, double paymentAmount) {
+        this.guestName = guestName;
+        this.room = room;
+        this.paymentAmount = paymentAmount;
+    }
+
+    public String getGuestName() {
+        return guestName;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public double getPaymentAmount() {
+        return paymentAmount;
+    }
+
+    @Override
+    public String toString() {
+        return "Reservation{" +
+                "guestName='" + guestName + '\'' +
+                ", room=" + room +
+                ", paymentAmount=" + paymentAmount +
+                '}';
+    }
+}
